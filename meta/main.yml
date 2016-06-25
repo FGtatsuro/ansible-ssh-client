@@ -17,4 +17,5 @@ galaxy_info:
     - osx
     - alpine
 
-dependencies: []
+dependencies:
+  - FGtatsuro.python-requirements
