@@ -2,3 +2,4 @@
 # tasks file for ssh-client(On Alpine Linux)
 - name: Install SSH client with APK
   apk: name=openssh-client update_cache=yes
+  become: yes
