@@ -2,3 +2,4 @@
 # tasks file for ssh-client(On Debian family)
 - name: Install SSH client with APT
   apt: name=openssh-client update_cache=yes cache_valid_time=3600 install_recommends=no
+  become: yes
