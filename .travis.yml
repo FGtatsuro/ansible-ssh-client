@@ -1,5 +1,9 @@
 ---
 # https://docs.travis-ci.com/user/multi-os/
+branches:
+  only:
+  - master
+
 matrix:
   include:
     - os: osx
