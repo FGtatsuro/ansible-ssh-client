@@ -1,0 +1,6 @@
+---
+# tasks file for python-requirements(On RedHat family)
+# ATTENTION: RedHat families are NOT supported officially. There is no test about these tasks.
+- name: Install SSH client
+  yum: name=openssh-clients update_cache=yes
+  become: yes
